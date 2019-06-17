@@ -1,0 +1,287 @@
+"""
+utils
+"""
+
+def split_arr(s, l):
+    """split arr"""
+    parts = []
+    for i in range(0, len(s), l):
+        parts.append(s[i:i+l])
+    return parts
+
+def rotate_char(char, n=1):
+    """rotate char"""
+    n = (int(char, base=16) + n) % 16
+    return hex(n)[2:]
+
+def rotate_chars(string, n=1):
+    """rotate chars"""
+    rotated_string = ''
+    for c in string:
+        rotated_string += rotate_char(c, n)
+    return rotated_string
+
+def hex2chars(hex_str):
+    """hex2chars"""
+    string = ""
+    parts = split_arr(hex_str, 2)
+    for char in parts:
+        string += chr(int(char, base=16))
+    return string
+
+
+"
+    
+    
+    
+    
+    polar bear during a snow storm - stegano50.pdf
+
+
+    
+
+
+
+
+
+
+
+    
+
+  
+
+  
+    
+
+      
+        
+          
+            
+               缩略图
+            
+            
+               文档大纲
+            
+            
+               附件
+            
+          
+        
+        
+          
+          
+          
+        
+        
+        
+
+      
+        
+          
+            
+            
+              
+                上一页
+              
+              
+              
+                下一页
+              
+            
+          
+
+          
+            
+            全部高亮显示
+            
+            区分大小写
+          
+          
+            
+            字词匹配
+            
+          
+
+          
+            
+          
+          
+
+        
+          
+            
+              演示模式
+            
+
+            
+              打开
+            
+
+            
+              打印
+            
+
+            
+              下载
+            
+
+            
+              当前在看
+            
+
+            
+
+            
+              转到第一页
+            
+            
+              转到最后一页
+            
+
+            
+
+            
+              顺时针旋转
+            
+            
+              逆时针旋转
+            
+
+            
+
+            
+              文本选择工具
+            
+            
+              手形工具
+            
+
+            
+
+            
+              垂直滚动
+            
+            
+              水平滚动
+            
+            
+              平铺滚动
+            
+
+            
+
+            
+              单页视图
+            
+            
+              双页视图
+            
+            
+              书籍视图
+            
+
+            
+
+            
+              文档属性…
+            
+          
+          
+
+        
+          
+            
+              
+                
+                  切换侧栏
+                
+                
+                
+                  查找
+                
+                
+                  
+                    上一页
+                  
+                  
+                  
+                    下一页
+                  
+                
+                
+                / 1
+              
+              
+                
+                  演示模式
+                
+
+                
+                  打开
+                
+
+                
+                  打印
+                
+
+                
+                  下载
+                
+                
+                  当前在看
+                
+
+                
+
+                
+                  工具
+                
+              
+              
+                
+                  
+                    缩小
+                  
+                  
+                  
+                    放大
+                   
+                
+                
+                  
+                    自动缩放
+                    实际大小
+                    适合页面
+                    适合页宽
+                    
+                    50%
+                    75%
+                    100%
+                    125%
+                    150%
+                    200%
+                    300%
+                    400%
+                  
+                
+              
+            
+            
+              
+                
+                
+              
+            
+          
+        
+
+        
+          
+          
+          
+          
+        
+
+        
+          NoFlagHere! NoFlagHere! NoFlagHere!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXClose - but still not here !BABA BBB BA BBA ABA AB B AAB ABAA AB B AA BBB BA AAA BBAABB AABA ABAA AB BBA BBBAAA ABBBB BA AAAB ABBBB AAAAA ABBBB BAAA ABAA AAABB BB AAABB AAAAA AAAAA AAAAB BBA AAABBLorem ipsum dolor sit amet,  consectetur adipiscing elit.  Cras faucibus odio ut metus vulputate,  id laoreet magnavolutpat.  Integer nec enim vel arcu porttitor egestas.  Vestibulum suscipit lorem sed sem faucibus rutrum.  Nunc diamorci,  convallis  vitae  auctor  vehicula,  interdum  ut  mi.   Maecenas  nec  urna  at  dolor  mattis  dictum  sit  amet  at  orci.Mauris condimentum adipiscing erat nec feugiat.  Curabitur scelerisque varius ligula,  iaculis adipiscing dui.  Duis egetullamcorper arcu.  In facilisis et tortor commodo aliquam.  Nulla feugiat, sem eu molestie bibendum, leo nisi porttitormassa, id accumsan sapien libero id tellus.  In enim lacus, sollicitudin a felis quis, blandit porta ipsum.  Donec sed nibhegestas, tristique mauris eu, rutrum justo.  Nulla facilisi.  Duis gravida semper dui laoreet vulputate.  Aenean quis tempororci.   Cras  placerat  lectus  nulla,  eu  bibendum  metus  interdum  in.Lorem  ipsum  dolor  sit  amet,  consectetur  adipiscingelit.   Cras  faucibus  odio  ut  metus  vulputate,  id  laoreet  magna  volutpat.   Integer  nec  enim  vel  arcu  porttitor  egestas.Vestibulum suscipit lorem sed sem faucibus rutrum.  Nunc diam orci,  convallis vitae auctor vehicula,  interdum ut mi.Maecenas nec urna at dolor mattis dictum sit amet at orci.  Mauris condimentum adipiscing erat nec feugiat.  Curabiturscelerisque  varius  ligula,  iaculis  adipiscing  dui.   Duis  eget  ullamcorper  arcu.   In  facilisis  et  tortor  commodo  aliquam.Nulla feugiat, sem eu molestie bibendum, leo nisi porttitor massa, id accumsan sapien libero id tellus.  In enim lacus,sollicitudin a felis quis, blandit porta ipsum.  Donec sed nibh egestas, tristique mauris eu, rutrum justo.  Nulla facilisi.Duis gravida semper dui laoreet vulputate.  Aenean quis tempor orci.  Cras placerat lectus nulla,  eu bibendum metusinterdum in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Cras faucibus odio ut metus vulputate, id laoreetmagna volutpat.  Integer nec enim vel arcu porttitor egestas.  Vestibulum suscipit lorem sed sem faucibus rutrum.  Nuncdiam orci, convallis vitae auctor vehicula, interdum ut mi.  Maecenas nec urna at dolor mattis dictum sit amet at orci.Mauris condimentum adipiscing erat nec feugiat.  Curabitur scelerisque varius ligula,  iaculis adipiscing dui.  Duis egetullamcorper arcu.  In facilisis et tortor commodo aliquam.  Nulla feugiat, sem eu molestie bibendum, leo nisi porttitormassa, id accumsan sapien libero id tellus.  In enim lacus, sollicitudin a felis quis, blandit porta ipsum.  Donec sed nibhegestas, tristique mauris eu, rutrum justo.  Nulla facilisi.  Duis gravida semper dui laoreet vulputate.  Aenean quis tempororci.   Cras  placerat  lectus  nulla,  eu  bibendum  metus  interdum  in.Lorem  ipsum  dolor  sit  amet,  consectetur  adipiscingelit.   Cras  faucibus  odio  ut  metus  vulputate,  id  laoreet  magna  volutpat.   Integer  nec  enim  vel  arcu  porttitor  egestas.Vestibulum suscipit lorem sed sem faucibus rutrum.  Nunc diam orci,  convallis vitae auctor vehicula,  interdum ut mi.Maecenas nec urna at dolor mattis dictum sit amet at orci.  Mauris condimentum adipiscing erat nec feugiat.  Curabiturscelerisque  varius  ligula,  iaculis  adipiscing  dui.   Duis  eget  ullamcorper  arcu.   In  facilisis  et  tortor  commodo  aliquam[Your  flag  is  not  here  ]olestie  bibendum,  leo  nisi  porttitor  massa,  id  accumsan  sapien  libero  id  tellus.   In  enim  lacus,sollicitudin a felis quis, blandit porta ipsum.  Donec sed nibh egestas, tristique mauris eu, rutrum justo.  Nulla facilisi.Duis gravida semper dui laoreet vulputate.  Aenean quis tempor orci.  Cras placerat lectus nulla,  eu bibendum metusinterdum in.Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Cras faucibus odio ut metus vulputate, id laoreetmagna volutpat.  Integer nec enim vel arcu porttitor egestas.  Vestibulum suscipit lorem sed sem faucibus rutrum.  Nuncdiam orci, convallis vitae auctor vehicula, interdum ut mi.  Maecenas nec urna at dolor mattis dictum sit amet at orci.Mauris condimentum adipiscing erat nec feugiat.  Curabitur scelerisque varius ligula,  iaculis adipiscing dui.  Duis egetullamcorper arcu.  In facilisis et tortor commodo aliquam.  Nulla feugiat, sem eu molestie bibendum, leo nisi porttitormassa, id accumsan sapien libero id tellus.  In enim lacus, sollicitudin a felis quis, blandit porta ipsum.  Donec sed nibhegestas, tristique mauris eu, rutrum justo.  Nulla facilisi.  Duis gravida semper dui laoreet vulputate.  Aenean quis tempororci.   Cras  placerat  lectus  nulla,  eu  bibendum  metus  interdum  in.Lorem  ipsum  dolor  sit  amet,  consectetur  adipiscingelit.   Cras  faucibus  odio  ut  metus  vulputate,  id  laoreet  magna  volutpat.   Integer  nec  enim  vel  arcu  porttitor  egestas.Vestibulum suscipit lorem sed sem faucibus rutrum.  Nunc diam orci,  convallis vitae auctor vehicula,  interdum ut mi.Maecenas nec urna at dolor mattis dictum sit amet at orci.  Mauris condimentum adipiscing erat nec feugiat.  Curabiturscelerisque varius ligula, iaculis adipiscing dui.  Duis eget ullamcorper arcu.  In facilisis et tortor commodo aliquam.  Nullafeugiat, sem eu molestie bibendum, leo nisi porttitor massa, id accumsan sapien libero id tellus.  In enim lacus, sollicitudina felis quis, blandit porta ipsum.  Donec sed nibh egestas, tristique mauris eu, rutrum justo.  Nulla facilisi.  Duis gravidasemper dui laoreet vulputate.  Aenean quis tempor orci.  Cras placerat lectus nulla, eu bibendum metus interdum in.Crasplacerat  lectus  nulla,  eu  bibendum  metus  interdum  in.Lorem  ipsum  dolor  sit  amet,  consectetur  adipiscing  elit.   Crasfaucibus odio ut metus vulputate, id laoreet magna volutpat.  Integer nec enim vel arcu porttitor egestas.  Vestibulumsuscipit lorem sed sem faucibus rutrum.  Nunc diam orci, convallis vitae auctor vehicula, interdum ut mi.  Maecenas necurna at dolor mattis dictum sit amet at orci.  Mauris condimentum adipiscing erat nec feugiat.  Curabitur scelerisquevarius ligula, iaculis adipiscing dui.  Duis eget ullamcorper arcu.  In facilisis et tortor commodo aliquam.  Nulla feugiat,sem eu molestie bibendum, leo nisi porttitor massa, id accumsan sapien libero id tellus.  In enim lacus, sollicitudin a felisquis, blandit porta ipsum.  Donec sed nibh egestas, tristique mauris eu, rutrum justo.  Nulla facilisi.  Duis gravida semperdui laoreet vulputate.  Aenean quis tempor orci.  Cras placerat lectus nulla, eu bibendum metus interdum in.
+        
